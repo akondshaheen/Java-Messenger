@@ -23,8 +23,7 @@ public class Message {
 		this.id=id;
 		this.message=message;
 		this.author=author;
-		System.out.println("Constructor");
-
+		this.created = new Date();
 	}
 
 	public long getId() {
